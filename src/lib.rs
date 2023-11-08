@@ -1,4 +1,8 @@
-use color_eyre::Result;
+pub use color_eyre::eyre;
+#[doc(hidden)]
+pub use color_eyre::Report;
+#[doc(hidden)]
+pub use color_eyre::Result;
 
 /// Install the deault panic and error report hooks. Ensure rust backtrace is enabled.
 ///
