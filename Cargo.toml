@@ -1,8 +1,17 @@
 [package]
 name = "krenz"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2021"
-
+authors = ["Eric Krenz"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/erickrenz/krenz-rust"
+homepage = "https://github.com/erickrenz/krenz-rust"
+documentation = "https://docs.rs/krenz/"
+categories = ["development-tools"]
+description = """
+krenz - a collection of my frequently used functions and macros
+"""
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
