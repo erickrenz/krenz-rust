@@ -7,7 +7,7 @@ use color_eyre::Result;
 /// use color_eyre::eyre::Result;
 ///
 /// fn main() -> Result<()> {
-///     aoc::color_eyre_install()?;
+///     krenz::color_eyre_install()?;
 ///     // ...
 ///     Ok(())
 /// }
@@ -32,7 +32,7 @@ pub fn color_eyre_install() -> Result<()> {
 /// # Examples
 ///
 /// ```
-/// use aoc::dump;
+/// use krenz::dump;
 /// let address = 2;
 /// let value = 3;
 /// dump!("address = {}  value = 0b{:08b}", address, value);
@@ -55,7 +55,7 @@ macro_rules! dump {
 /// # Examples
 ///
 /// ```
-/// use aoc::dmp;
+/// use krenz::dmp;
 /// let address = 2;
 /// let value = 3;
 /// dmp!(address, value);
