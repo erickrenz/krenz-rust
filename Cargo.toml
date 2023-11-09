@@ -1,6 +1,6 @@
 [package]
 name = "krenz"
-version = "1.0.2"
+version = "1.0.3"
 edition = "2021"
 authors = ["Eric Krenz"]
 license = "MIT OR Apache-2.0"
